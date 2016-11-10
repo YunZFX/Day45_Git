@@ -13,4 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("tmd", "onCreate: "+"添加的第一个log");
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("tmd", "onStart: "+"添加了一个方法");
+    }
 }
